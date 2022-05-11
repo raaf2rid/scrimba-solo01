@@ -1,0 +1,123 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    /* text-align: center; */
+}
+
+#hero-section{
+    /* width: 720px; */
+    height: 343px;
+    background: url("images/torshov.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+    }
+
+h1 {
+    width: 225px;
+    padding: 5px 0px 5px 0px;
+    background: #1D3557;
+    border-radius: 10px;
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    /* text-align: center; */
+    }
+
+h2 {
+    margin-top: 10px;
+    width: 412px;
+    padding: 3px 0px 3px 0px;
+    font-size: 18.72px;
+    background: #457B9D;
+    border-radius: 10px;
+    /* text-align: center; */
+    
+}
+
+img {
+    width: 100px;
+}
+
+#activities {
+  padding: 85px 0px 0px 0px;
+  background:#F1FAEE;
+  height: 343px;
+  display: flex; 
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: start; 
+  color: #1D3557;
+  text-align: center;
+  
+}
+
+.act{
+    border-radius: 50%;
+}
+
+.title {
+    padding-left: 10px; 
+    width: 180px;
+    font-weight: 700;
+    /* text-align: center; */
+    }
+
+.detail{
+    width: 200px;
+    margin: 0px 0px 0px px;
+    /* text-align: center; */
+    
+}
+
+
+#card{
+    background: #A8DADC;
+    width:400px;
+    height: 294px; 
+    margin: 50px auto 50px auto; 
+    border-bottom: 8px solid #1D3557;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+.avatar {
+    /* padding: 20px 0px 0px 5px; */
+    margin: 0px 0px 0px 10px;
+    width: 180px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+}
+
+#detail-crd{
+    margin-top: 0px;
+    padding: 10px;
+    text-align: center; 
+    color: #1D3557;
+
+}
+
+.font-italic{
+    font-style: italic;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 24px;
+    margin: 10px;
+    padding: 10px;
+}
