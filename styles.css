@@ -16,7 +16,7 @@ body {
 #hero-section{
     /* width: 720px; */
     height: 343px;
-    background: url("images/torshov.jpg");
+    background: url("torshov.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
